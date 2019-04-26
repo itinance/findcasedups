@@ -1,0 +1,22 @@
+{
+  "name": "findcasedups",
+  "version": "1.0.0",
+  "description": "find duplicates for case-insensitive filesystems",
+  "main": "index.js",
+  "bin": {
+    "findcasedups": "bin/findcasedups"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hagen Hübel hhuebel@itinance.com",
+  "license": "MIT",
+  "preferGlobal": true,
+  "dependencies": {
+    "lodash": "^4.17.11",
+    "minimist": "^1.2.0"
+  },
+  "engines": {
+    "node": ">=8"
+  }
+}
