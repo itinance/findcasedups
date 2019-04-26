@@ -1,7 +1,13 @@
 
-# find possible duplicated files
+# find possible duplicated files ...
 
-on case sensitive filesystems that would cause trouble while copying to case insensitive file systems.
+... on case sensitive filesystems that would cause trouble while copying to case insensitive file systems.
+
+## Installation
+
+```
+npm install -g findcasedups
+```
 
 ## Usage:
 
